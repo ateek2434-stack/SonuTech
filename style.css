@@ -27,7 +27,7 @@ body {
     overflow: hidden;
 }
 
-/* Header design */
+/* Header design with glow logo */
 header {
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,7 @@ header {
     margin-bottom: 15px;
 }
 .header-content { display: flex; align-items: center; }
-.header-logo-img { width: 35px; height: 35px; border-radius: 50%; margin-right: 10px; border: 1px solid #00d4ff; object-fit: cover; }
+.header-logo-img { width: 35px; height: 35px; border-radius: 50%; margin-right: 10px; border: 1px solid #00d4ff; object-fit: cover; box-shadow: 0 0 10px rgba(0, 212, 255, 0.5); /* Glow for logo circle #2 */ }
 .text-logo h1 { font-size: 14px; margin: 0; color: #00d4ff; text-shadow: 0 0 5px #00d4ff; }
 .text-logo p { font-size: 10px; margin: 0; color: #aaa; }
 .nav-icons i { color: #888; font-size: 16px; margin-left: 12px; }
@@ -68,7 +68,7 @@ header {
 .block { background: rgba(255,255,255,0.04); border-radius: 15px; padding: 15px; border: 1px solid rgba(255,255,255,0.06); }
 h4 { color: #aaa; font-size: 10px; margin: 0 0 10px; text-transform: uppercase; letter-spacing: 1px; }
 
-/* Portrait mask and glow */
+/* Portrait mask and glow - Expert Face circle #1 */
 .profile-card { text-align: center; }
 .profile-mask {
     width: 80px; height: 80px;
@@ -88,7 +88,7 @@ h4 { color: #aaa; font-size: 10px; margin: 0 0 10px; text-transform: uppercase; 
 .service-item.active { background: #21262d; border-left: 3px solid #00d4ff; color: white; }
 .service-item.active i { color: #00d4ff; }
 
-/* Gallery with dynamic image sizes */
+/* Gallery with dynamic image sizes - circle #3 */
 .gallery-layout { display: flex; gap: 8px; }
 .gallery-left { width: 60%; display: flex; flex-direction: column; gap: 8px; }
 .gallery-left img { width: 100%; height: 60px; object-fit: cover; border-radius: 10px; }
